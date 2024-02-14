@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;800&display=swap");
+
+@tailwind base;
+@layer base {
+    h1 {
+      @apply text-2xl;
+    }
+    h2 {
+      @apply text-xl;
+    }
+    h3 {
+      @apply text-lg;
+    }
+  }
+
+@tailwind components;
+@tailwind utilities;
+
+dialog {
+  overflow: auto;
+  overscroll-behavior: contain;
+}
