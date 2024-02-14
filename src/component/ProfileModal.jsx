@@ -23,7 +23,7 @@ export default function ProfileModal(props) {
     <div className='flex flex-col py-10'>
        <div className="flex justify-center w-full">
             <div className="relative">
-                <img className='rounded-full' width={90} height={90} src={'https://lh3.googleusercontent.com/a/ACg8ocKTCcWOmLtHMWHrY_uoCSSNjNas7zteB1T8s38lZ9eQxic=s360-c-no'} />
+                <img className='rounded-full' width={90} height={90} src={'https://i.ibb.co/VYg66p6/unnamed.jpg'} />
                 <button className="absolute bottom-2 -right-2 bg-yellow rounded-full p-2">
                     <HiOutlinePencilAlt color="#fff" />
                 </button>

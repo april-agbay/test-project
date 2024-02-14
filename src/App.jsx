@@ -55,11 +55,11 @@ function App() {
       </section>
       <section id={'activity-list'}>
           <div className='flex justify-center mt-20 mb-10 gap-x-2 font-roboto px-2'>
-            <button onClick={()=> setCurrentActivity("leisure")} className={`${currentActivity === 'leisure' ? 'bg-blue text-white': 'bg-gray-soft'} py-2 px-4 rounded-r-lg flex items-center gap-x-2`}>
+            <button onClick={()=> setCurrentActivity("leisure")} className={`${currentActivity === 'leisure' ? 'bg-blue text-white': 'bg-gray-soft'} py-2 px-4 rounded-l-lg flex items-center gap-x-2`}>
               <GiPoolTriangle size={23} />
               Leisure Activities
             </button>
-            <button onClick={()=> setCurrentActivity("beach")} className={`${currentActivity === 'beach' ? 'bg-blue text-white': 'bg-gray-soft'} py-2 px-4 rounded-r-lg flex items-center gap-x-2`}>
+            <button onClick={()=> setCurrentActivity("beach")} className={`${currentActivity === 'beach' ? 'bg-blue text-white': 'bg-gray-soft'} py-2 px-4 flex items-center gap-x-2`}>
               <LuSailboat size={23} />
               Water Sports
             </button>

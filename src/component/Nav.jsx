@@ -21,7 +21,7 @@ export default function Nav(){
                     <IoNotificationsOutline size={30} />
                     <span className='bg-red-light rounded-full py-[0.03rem] px-[0.40rem] text-sm text-white absolute left-3 bottom-4'>1</span>
                     {
-                        notificationDrop ? <div className='overflow-hidden flex flex-col lg:w-[30rem] w-[23rem] absolute lg:-right-[4rem] lg:-left-96 -left-60 top-10 shadow z-40 bg-white rounded-xl'>
+                        notificationDrop ? <div className='border border-gray-border overflow-hidden flex flex-col lg:w-[26.5rem] w-[23rem] absolute lg:-left-[20rem] -left-60 top-[3rem] shadow z-40 bg-white rounded-xl'>
                                                 <div className='relative'>
                                                     <div className='absolute -top-[.6rem] right-[1.3rem] '>
                                                         <IoTriangle color='#f7f7f7' className='' />
@@ -62,7 +62,7 @@ export default function Nav(){
                     }
                 </button>
                 <button onClick={()=> setProfileDrop(prev => !prev)} className='rounded-full relative'>
-                    <img className='rounded-full' width={45} height={45} src={'https://lh3.googleusercontent.com/a/ACg8ocKTCcWOmLtHMWHrY_uoCSSNjNas7zteB1T8s38lZ9eQxic=s360-c-no'} />
+                    <img className='rounded-full' width={45} height={45} src={'https://i.ibb.co/VYg66p6/unnamed.jpg'} />
                     {
                         profileDrop ? <div className='flex flex-col w-44 absolute right-3 shadow p-3 z-40 bg-white rounded-xl'>
                                         <button onClick={()=> modalRef.current.showModal()} className='py-2 px-3 hover:bg-gray-soft rounded-lg'>My Profile</button>
